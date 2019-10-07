@@ -18,6 +18,9 @@
 
     <properties>
         <parameter.gpg.skip>true</parameter.gpg.skip>
+        <parameter.license>MIT</parameter.license>
+        <parameter.organization.email>royceremer@gmail.com</parameter.organization.email>
+        <parameter.organization.name>Royce Remer</parameter.organization.name>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <scm.url>https://github.com/rremer/com-github-rremer-maven-parent</scm.url>
         <version.maven-gpg-plugin>1.6</version.maven-gpg-plugin>
@@ -44,11 +47,14 @@
             </plugin>
         </plugins>
     </build>
+
     <url>${scm.url}</url>
+
+    <inceptionYear>2019</inceptionYear>
 
     <licenses>
         <license>
-            <name>BSD-3</name>
+            <name>MIT</name>
         </license>
     </licenses>
 
