@@ -2,6 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/rremer/com-github-rremer-maven-parent)](https://travis-ci.org/rremer/com-github-rremer-maven-parent)
 [![Maven Central](https://img.shields.io/badge/version-1.0.0-green.svg)](https://search.maven.org/artifact/com.github.rremer/maven-parent/1.0.0/pom)
+![License](https://img.shields.io/github/license/rremer/com-github-rremer-maven-parent)
 
 
 Maven Parent POM for com.github.rremer projects.
