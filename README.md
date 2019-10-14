@@ -1,8 +1,9 @@
 # com-github-rremer-maven-parent
 
 [![Build Status](https://img.shields.io/travis/rremer/com-github-rremer-maven-parent)](https://travis-ci.org/rremer/com-github-rremer-maven-parent)
-[![Maven Central](https://img.shields.io/badge/version-1.0.0-green.svg)](https://search.maven.org/artifact/com.github.rremer/maven-parent/1.0.0/pom)
+[![Maven Central](https://img.shields.io/badge/version-1.0.1-green.svg)](https://search.maven.org/artifact/com.github.rremer/maven-parent/1.0.1/pom)
 ![License](https://img.shields.io/github/license/rremer/com-github-rremer-maven-parent)
+[![Keybase PGP](https://img.shields.io/keybase/pgp/rremer)](https://keybase.io/rremer/pgp_keys.asc)
 
 
 Maven Parent POM for com.github.rremer projects.
@@ -15,7 +16,7 @@ In your maven project ```pom.xml```, add:
 <parent>
     <groupId>com.github.rremer</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </parent>
 ```
 
@@ -30,7 +31,7 @@ mvn clean install
 Ensure your gpg key is installed and ```settings.xml``` is updated with id oss.sonatype.org [per their instructions].
 
 ```sh
-mvn versions:set -DnewVersion=1.0.1
+mvn versions:set -DnewVersion=1.0.2
 mvn clean deploy -Dparameter.gpg.skip=false
 ```
 
