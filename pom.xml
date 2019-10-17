@@ -10,13 +10,16 @@
 
     <groupId>com.github.rremer</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <name>Maven Parent</name>
     <description>Maven Parent POM for com.github.rremer projects</description>
 
     <properties>
+        <github.owner>rremer</github.owner>
+        <github.site.location>${project.version}</github.site.location>
+        <github.site.url>https://${github.owner}.github.io/${github.project}</github.site.url>
         <parameter.gpg.skip>true</parameter.gpg.skip>
         <parameter.license>MIT</parameter.license>
         <parameter.organization.email>royceremer@gmail.com</parameter.organization.email>
@@ -48,9 +51,14 @@
         </plugins>
     </build>
 
-    <url>${scm.url}</url>
+    <url>${github.site.url}/${github.site.location}</url>
 
     <inceptionYear>2019</inceptionYear>
+
+    <organization>
+        <name>Royce Remer</name>
+        <url>https://github.com/rremer/</url>
+    </organization>
 
     <licenses>
         <license>
